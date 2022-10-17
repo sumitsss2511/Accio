@@ -12,8 +12,7 @@ public class shift_matrix_row_wise {
 									int k)
 	{
 		if (k > N) {
-			System.out.print("Shifting is"
-						+ " not possible");
+			System.out.print(-1);
 			return;
 		}
 		
